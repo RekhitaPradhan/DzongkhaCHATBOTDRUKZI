@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DRUKZI</title><link rel="stylesheet" href="css/style.css"><link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0b2a6f"></head><body>
+<aside id="side"><div class="brand">DRUKZI</div><button id="new">+ New conversation</button>
+<div id="list"></div><button id="clearAll" class="ghost">Delete all conversations</button></aside>
+<main>
+<header><button id="menu" class="ghost">☰</button><span id="status">Models not loaded</span>
+<button id="speak" class="ghost" title="Speak replies">🔊 On</button><button id="stop" class="ghost">■ Stop</button>
+<button id="theme" class="ghost">◐</button></header>
+<section id="msgs"></section>
+<section id="loader" hidden><p id="ltxt">Preparing…</p><div class="bar"><i id="lbar"></i></div></section>
+<form id="f"><button type="button" id="mic" disabled title="Voice input arrives in Stage 2">🎤</button>
+<input id="in" autocomplete="off" placeholder="Type in English or Dzongkha"><button id="send">Send</button></form>
+</main><script type="module" src="js/app.js"></script></body></html>
