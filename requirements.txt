@@ -1,0 +1,4 @@
+# Tested setup target: Python 3.11 on Windows
+ctranslate2>=4.4
+transformers>=4.45
+sentencepiece>=0.2

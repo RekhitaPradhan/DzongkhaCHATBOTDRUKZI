@@ -1,15 +1,31 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>DRUKZI</title><link rel="stylesheet" href="css/style.css"><link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#0b2a6f"></head><body>
+<title>DRUKZI</title><link rel="stylesheet" href="css/style.css"><link rel="icon" href="assets/dragon.jpg"><link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0a0806"></head><body>
 <aside id="side"><div class="brand">DRUKZI</div><button id="new">+ New conversation</button>
-<div id="list"></div><button id="clearAll" class="ghost">Delete all conversations</button></aside>
+<div class="tabs"><button type="button" id="tChats" class="on">💬 Chats</button><button type="button" id="tExplore">🐉 Explore</button></div>
+<div id="chatsPane"><input id="search" type="search" placeholder="Search conversations" aria-label="Search conversations">
+<div id="list"></div><button id="clearAll" class="ghost">Delete all conversations</button></div>
+<div id="explore" hidden>
+<img class="rhero" src="assets/dragon.jpg" alt="Golden Bhutanese thunder dragon">
+<h3 class="rt">Druk · འབྲུག</h3><p class="rs">The Thunder Dragon</p>
+<section class="card"><h4>Did you know?</h4><p id="fact">Loading…</p><button id="nextFact" class="ghost sm">Another fact</button></section>
+<section class="card"><h4>Learn Dzongkha</h4><p id="phDz" class="dz big"></p><p id="phEn"></p><div class="row"><button id="phNext" class="ghost sm">Next</button></div></section>
+<section class="card"><h4>Ask about</h4><div id="topics" class="tchips"></div></section>
+<section class="card"><h4>Gallery</h4><div id="gallery" class="gal"></div></section>
+</div></aside>
 <main>
-<header><button id="menu" class="ghost">☰</button><span id="status">Models not loaded</span>
-<button id="speak" class="ghost" title="Speak replies">🔊 On</button><button id="stop" class="ghost">■ Stop</button>
-<button id="theme" class="ghost">◐</button></header>
-<section id="msgs"></section>
+<header><button id="menu" class="ghost" aria-label="Menu">☰</button><span id="status">Models not loaded</span>
+
+<button id="export" class="ghost" title="Download this conversation">⬇ Export</button>
+<button id="theme" class="ghost" title="Light or dark theme">◐</button><button id="rtoggle" class="ghost" title="Show or hide the Explore panel">🐉</button></header>
+<section id="msgs" aria-live="polite"></section>
 <section id="loader" hidden><p id="ltxt">Preparing…</p><div class="bar"><i id="lbar"></i></div></section>
-<form id="f"><button type="button" id="mic" disabled title="Voice input arrives in Stage 2">🎤</button>
-<input id="in" autocomplete="off" placeholder="Type in English or Dzongkha"><button id="send">Send</button></form>
-</main><script type="module" src="js/app.js"></script></body></html>
+<div id="files"></div><div id="study" hidden></div>
+<form id="f"><button type="button" id="attach" class="ghost round" title="Attach images and documents: PNG, JPG, WEBP, PDF, Word, PowerPoint, Excel, text…">📎</button><input type="file" id="file" accept="image/*,.pdf,.docx,.pptx,.xlsx,.xls,.ods,.csv,.txt,.md,.json,.html,.rtf,.xml,.js,.py,.java,.cpp,.c,.log" multiple hidden>
+
+<textarea id="in" rows="1" autocomplete="off" placeholder="Type in English or Dzongkha. Enter to send, Shift+Enter for a new line"></textarea><button id="send">Send</button></form><div id="drop" hidden>Drop images or documents here</div>
+</main>
+
+<div id="lb" hidden><figure><img alt=""><figcaption></figcaption></figure></div>
+<script type="module" src="js/app.js"></script></body></html>

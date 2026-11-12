@@ -1,0 +1,94 @@
+[
+ {
+  "q": "hello",
+  "m": [
+   "hi",
+   "hello",
+   "hey",
+   "hi drukzi",
+   "hello drukzi",
+   "hey drukzi",
+   "སྐུ་གཟུགས་བཟང་པོ་ལགས།",
+   "སྐུ་གཟུགས་བཟང་པོ།",
+   "སྐུ་གཟུགས་བཟང་པོ་ལགས། ཁྱོད་ག་དེ་སྦེ་ཡོད?",
+   "སྐུ་གཟུགས་བཟང་པོ་ལགས།",
+   "སྐུ་གཟུགས་བཟང་པོ།",
+   "སྐུ་གཟུགས་བཟང་པོ་ལགས། ང་ནཱ་ཡོད།",
+   "kuzuzangpo",
+   "kuzuzangpo la",
+   "kuzu zangpo la"
+  ],
+  "en": "Hello! How may I assist you today?",
+  "dz": "སྐུ་གཟུགས་བཟང་པོ་ལགས། ང་ནཱ་ཡོད། ག་ཅི་རོགས་དགོ?"
+ },
+ {
+  "q": "how are you",
+  "m": [
+   "how are you",
+   "hi how are you",
+   "hello how are you",
+   "hi drukzi how are you",
+   "hello drukzi how are you",
+   "how are you drukzi",
+   "ཁྱོད་ག་དེ་སྦེ་ཡོད?",
+   "kuzuzangpo how are you",
+   "kuzuzangpo la how are you"
+  ],
+  "en": "I am fine. How are you?",
+  "dz": "ང་བདེ་པོ་ཡོད། ཁྱོད་ག་དེ་སྦེ་ཡོད?"
+ },
+ {
+  "q": "thank you",
+  "m": [
+   "thank you",
+   "thanks",
+   "thank you drukzi",
+   "kadrinche",
+   "kadrinche la"
+  ],
+  "en": "You are welcome!"
+ },
+ {
+  "q": "who are you",
+  "m": [
+   "who are you",
+   "what are you",
+   "what is your name",
+   "your name",
+   "who is drukzi",
+   "what is drukzi"
+  ],
+  "en": "I am DRUKZI, an assistant that chats in Dzongkha and English and knows about Bhutan."
+ },
+ {
+  "q": "goodbye",
+  "m": [
+   "bye",
+   "goodbye",
+   "see you",
+   "see you later",
+   "good night"
+  ],
+  "en": "Goodbye! Come back any time."
+ },
+ {
+  "q": "sorry",
+  "m": [
+   "sorry",
+   "i am sorry",
+   "excuse me",
+   "pardon"
+  ],
+  "en": "No problem at all."
+ },
+ {
+  "q": "help",
+  "m": [
+   "help",
+   "what can you do",
+   "what can you help with",
+   "how can you help"
+  ],
+  "en": "I can chat in Dzongkha and English, answer questions about Bhutan, and read your documents."
+ }
+]
